@@ -3,22 +3,16 @@ title: "Freshchat"
 description: "Подключите бота к Freshchat и начните обрабатывать обращения пользователей"
 ---
 
-<img src="/images/integrations-freshchat.jpg" alt="freshchat integration" />
-
 Вы можете самостоятельно настроить интеграцию с Freshchat и начать обрабатывать обращения пользователей с использованием нашего бота.
-
 
 <Steps>
   <Step title="Получение Webhook Url">
-    На [портале](https://app.wikibot.pro) перейдите в раздел **Интеграции** своего бота и включите интеграцию Freshchat. Скопируйте **Webhook Url**.
+    На [портале](https://app.wikibot.pro) перейдите в раздел **Подключения** своего бота и включите интеграцию Freshchat. Скопируйте **Webhook Url**.
   </Step>
   <Step title="Настройка webhook в Freshchat">
     В настройках Freshchat перейдите в раздел Admin settings --> Webhooks for Chat. Включите Webhook. Вставьте полученный на портале Wikibot **Webhook Url** в поле Webhook.
-    Нажмите кнопку **Save**. Freshchat автоматически сгенерирует **Authentication** - публичный ключ. Скопируйте его.
+    Нажмите кнопку **Save**.
     <img src="/images/integrations-freshchat-enable-webhook.jpg" alt="freshchat integration" />    
-  </Step>
-  <Step title="Настройка публичного ключа">
-    Полученный публичный ключ вставьте в настройках интеграции Wikibot в поле **Публичный ключ**.
   </Step>
   <Step title="Настройка API запросов">
     В настройках Freshchat перейдите в раздел Admin settings --> API Settings. Нажмите кнопку **Generate** для генерации нового API ключа. Скопируйте его в поле **API ключ** в
